@@ -1,17 +1,26 @@
 # SystemTricks ⚡
-> Essential Hardware Key, Gesture &amp; System Tweaks for Android (LSPosed / Xposed)
+> Essential Hardware Key, Gesture &amp; System Tweaks for Android 10 - 17 (LSPosed / Xposed)
 
-[![Android](https://img.shields.io/badge/Android-10%20to%2015-3DDC84?style=flat&logo=android&logoColor=white)](https://github.com/BabaModz-Official/SystemTricks/releases)
-[![Framework](https://img.shields.io/badge/Framework-LSPosed-8A2BE2?style=flat)](https://github.com/BabaModz-Official/SystemTricks/releases)
-[![Release](https://img.shields.io/badge/Release-v1.0-blue?style=flat)](https://github.com/BabaModz-Official/SystemTricks/releases)
+[![Android](https://img.shields.io/badge/Android-10%20to%2017-3DDC84?style=flat&logo=android&logoColor=white)](https://github.com/BabaModz-Official/SystemTricks/releases)
+[![Framework](https://img.shields.io/badge/Framework-LSPosed%20(API%2093)-8A2BE2?style=flat)](https://github.com/BabaModz-Official/SystemTricks/releases)
+[![Release](https://img.shields.io/badge/Release-v2.0-blue?style=flat)](https://github.com/BabaModz-Official/SystemTricks/releases)
 
-**SystemTricks** is a lightweight, all-in-one system customization module for modern Android devices (Android 10 - 15, including HyperOS, MIUI, AOSP, LineageOS, Pixel, OneUI). 
+**SystemTricks** is an ultra-clean, modern, and lightweight system tweak module for Android devices (**Android 10 up through Android 17**, including HyperOS, MIUI, AOSP, LineageOS, Pixel, OneUI).
 
-It brings back essential power-user controls such as volume cursor control, lockscreen track skipping, pocket-safe power button flashlight, double-tap to sleep, and clean status bar icon toggles without any battery drain.
+Built on the latest **LSPosed API 93 standard**, it completely removes deprecated legacy APIs (such as `xposedsharedprefs`), providing zero-warning operation, real-time live preference syncing without reboots, and an enhanced Material 3 interface.
 
 ---
 
-## 🚀 Features
+## 🌟 What's New in v2.0
+* 🚀 **Full Android 10 - 17 Compatibility:** Dynamic hooks with signature fallback across Android 10, 11, 12, 13, 14, 15, 16 (Baklava), and 17.
+* 🛡️ **Zero Deprecation Warnings:** Upgraded to modern LSPosed API 93 standard and implemented custom `PreferencesProvider` (ContentProvider) architecture. Removed deprecated legacy `xposedsharedprefs`.
+* 🎨 **Enhanced Material 3 UI:** Redesigned interface with sleek rounded cards, active status badges (`● ACTIVE (API 93)`), device &amp; framework info chips, and one-tap LSPosed launch.
+* ⚡ **Live Real-time Sync:** All toggle switches and preferences apply in real time (within milliseconds) without needing to reboot your device.
+* ⏱️ **Torch Auto-Off Safety Timer:** Added 2 min, 5 min, and 10 min auto-off timer for flashlight to protect hardware from overheating.
+
+---
+
+## 🚀 Complete Features
 
 ### 🔘 Hardware Keys &amp; Gestures
 * **Volume Keys Control Cursor:** Move the text cursor Left / Right effortlessly using Volume Up &amp; Down keys when typing on keyboard (supports Normal &amp; Inverted modes).
@@ -46,20 +55,20 @@ It brings back essential power-user controls such as volume cursor control, lock
 ## 📲 Installation
 
 1. Ensure your device is rooted with **Magisk**, **KernelSU**, or **APatch**, and has **LSPosed** installed and working.
-2. Download the latest **`SystemTricks_v1.0.apk`** from the [Releases](https://github.com/BabaModz-Official/SystemTricks/releases) section.
+2. Download the latest **`SystemTricks_v2.0.apk`** from the [Releases](https://github.com/BabaModz-Official/SystemTricks/releases) section.
 3. Install the APK on your device.
 4. Open **LSPosed Manager**:
    * Navigate to the **Modules** tab.
    * Enable **SystemTricks**.
    * Ensure **System Framework (`android`)** is selected in scopes.
-5. **Reboot your phone** (Required for system_server hooks to load).
+5. **Reboot your phone** (Required once for system_server hooks to load).
 6. Open the **SystemTricks** app to configure your preferred tweaks.
    * Changes apply **instantly in real time** without needing further reboots!
 
 ---
 
 ## 🛠 Compatibility
-* **Android Versions:** Android 10, 11, 12, 13, 14, 15
+* **Android Versions:** Android 10, 11, 12, 13, 14, 15, 16, 17
 * **Supported ROMs:** HyperOS / MIUI, AOSP, LineageOS, Pixel Experience, OxygenOS, OneUI, etc.
 * **Root Frameworks:** LSPosed, LSPosed (Ipatch / Mod), EdXposed
 
