@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">SystemTricks</string>
+
+    <!-- Categories -->
+    <string name="category_keys_gestures">Hardware Keys &amp; Gestures</string>
+    <string name="category_notifications">Notifications</string>
+    <string name="category_statusbar">Status Bar &amp; UI</string>
+    <string name="category_apps">App Specific Tweaks</string>
+    <string name="category_about">About &amp; Credits</string>
+
+    <!-- 1. Cursor Control -->
+    <string name="cursorControl_title">Volume keys control cursor</string>
+    <string name="cursorControl_summary">Move cursor left or right using volume keys while typing</string>
+    <string name="cursorControl_disabled">Disabled</string>
+    <string name="cursorControl_upleft">Volume Up: Left, Volume Down: Right</string>
+    <string name="cursorControl_upright">Volume Up: Right, Volume Down: Left</string>
+
+    <!-- 2. Skip Track -->
+    <string name="skipTrack_title">Volume keys skip track</string>
+    <string name="skipTrack_summary">Long press volume keys when screen is off to skip music tracks</string>
+
+    <!-- 3. Power Torch -->
+    <string name="powerTorch_title">Power key toggle torch</string>
+    <string name="powerTorch_summary">Long press power button when screen is off to toggle flashlight (with proximity sensor check)</string>
+
+    <!-- Torch Auto-Off Timer -->
+    <string name="torchTimeout_title">Torch auto-off timer</string>
+    <string name="torchTimeout_summary">Automatically turn off flashlight after a set period to protect hardware</string>
+    <string name="torchTimeout_never">Never</string>
+    <string name="torchTimeout_2m">2 minutes</string>
+    <string name="torchTimeout_5m">5 minutes</string>
+    <string name="torchTimeout_10m">10 minutes</string>
+
+    <!-- 4. Prevent Accidental Wakeup -->
+    <string name="proximityWakeUp_title">Prevent accidental wake up</string>
+    <string name="proximityWakeUp_summary">Prevent screen turning on when proximity sensor is covered (e.g. inside pocket)</string>
+
+    <!-- 5. Double Tap to Sleep -->
+    <string name="doubleTapToSleep_title">Double-tap status bar to sleep</string>
+    <string name="doubleTapToSleep_summary">Double-tap the status bar or empty lock screen area to turn off screen</string>
+
+    <!-- 6. Quick Pulldown -->
+    <string name="quickPulldown_title">Quick Settings pulldown</string>
+    <string name="quickPulldown_summary">Pull down status bar from screen edge to open Quick Settings directly</string>
+    <string name="quickPulldown_disabled">Disabled</string>
+    <string name="quickPulldown_right">Right edge</string>
+    <string name="quickPulldown_left">Left edge</string>
+
+    <!-- 7. Back Gesture Height -->
+    <string name="gestureHeight_title">Back gesture trigger height</string>
+    <string name="gestureHeight_summary">Restrict back gesture height to avoid conflicts with drawer menus</string>
+    <string name="gestureHeight_everywhere">Full screen edge</string>
+    <string name="gestureHeight_90">Bottom 90%</string>
+    <string name="gestureHeight_80">Bottom 80%</string>
+    <string name="gestureHeight_70">Bottom 70%</string>
+    <string name="gestureHeight_60">Bottom 60%</string>
+    <string name="gestureHeight_50">Bottom 50%</string>
+    <string name="gestureHeight_40">Bottom 40%</string>
+    <string name="gestureHeight_30">Bottom 30%</string>
+    <string name="gestureHeight_20">Bottom 20%</string>
+    <string name="gestureHeight_10">Bottom 10%</string>
+
+    <!-- Notification Tweaks -->
+    <string name="hideAdbNotification_title">Hide USB debugging notification</string>
+    <string name="hideAdbNotification_summary">Hide persistent \"USB debugging connected\" notification</string>
+
+    <string name="lessNotifications_title">Throttle notification sounds</string>
+    <string name="lessNotifications_summary">Prevent rapid notification sound/vibration spam from active chats</string>
+    <string name="lessNotifications_disabled">Disabled</string>
+    <string name="lessNotifications_5s">5 seconds</string>
+    <string name="lessNotifications_10s">10 seconds</string>
+    <string name="lessNotifications_30s">30 seconds</string>
+    <string name="lessNotifications_1m">1 minute</string>
+    <string name="lessNotifications_2m">2 minutes</string>
+
+    <string name="screenOffNotifications_title">Screen-off notifications only</string>
+    <string name="screenOffNotifications_summary">Mute notification sounds and vibrations while screen is on</string>
+
+    <!-- Status Bar Tweaks -->
+    <string name="hideVpn_title">Hide VPN icon</string>
+    <string name="hideVpn_summary">Hide VPN key icon from status bar and quick settings footer</string>
+
+    <string name="hideCert_title">Hide CA certificate warning</string>
+    <string name="hideCert_summary">Hide \"Network may be monitored\" warning in security footer</string>
+
+    <string name="hideNextAlarm_title">Hide alarm icon</string>
+    <string name="hideNextAlarm_summary">Hide next alarm clock icon from status bar</string>
+
+    <string name="show4gForLte_title">Show 4G instead of LTE</string>
+    <string name="show4gForLte_summary">Display \"4G\" icon on mobile network instead of \"LTE\"</string>
+
+    <string name="hideLtePlus_title">Hide LTE+ / 4G+ icon</string>
+    <string name="hideLtePlus_summary">Display standard 4G/LTE icon without plus sign</string>
+
+    <string name="hideBuildVersion_title">Hide build version in QS footer</string>
+    <string name="hideBuildVersion_summary">Hide the build number text at the bottom of Quick Settings</string>
+
+    <string name="customCarrierText_title">Custom carrier text</string>
+    <string name="customCarrierText_summary">Custom text for carrier name on lock screen and status bar (leave blank for default)</string>
+
+    <!-- App Tweaks -->
+    <string name="phoneRecorder_title">Mute call recording warning</string>
+    <string name="phoneRecorder_summary">Silence \"This call is now being recorded\" announcement in Google Dialer</string>
+
+    <string name="outlookPolicy_title">Bypass Outlook device policy</string>
+    <string name="outlookPolicy_summary">Bypass mandatory device encryption and password enforcement for Outlook</string>
+
+    <!-- About -->
+    <string name="about_title">SystemTricks</string>
+    <string name="about_info">Modernized &amp; enhanced system tweak module for Android 10 - 15 via LSPosed.\n\nOriginal concept &amp; base by Dark_Eyes_ (Dark Tricks).</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursorControl_entries">
+        <item>@string/cursorControl_disabled</item>
+        <item>@string/cursorControl_upleft</item>
+        <item>@string/cursorControl_upright</item>
+    </string-array>
+
+    <string-array name="cursorControl_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="quickPulldown_entries">
+        <item>@string/quickPulldown_disabled</item>
+        <item>@string/quickPulldown_right</item>
+        <item>@string/quickPulldown_left</item>
+    </string-array>
+
+    <string-array name="quickPulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="torchTimeout_entries">
+        <item>@string/torchTimeout_never</item>
+        <item>@string/torchTimeout_2m</item>
+        <item>@string/torchTimeout_5m</item>
+        <item>@string/torchTimeout_10m</item>
+    </string-array>
+
+    <string-array name="torchTimeout_values" translatable="false">
+        <item>0</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+
+    <string-array name="lessNotifications_entries">
+        <item>@string/lessNotifications_disabled</item>
+        <item>@string/lessNotifications_5s</item>
+        <item>@string/lessNotifications_10s</item>
+        <item>@string/lessNotifications_30s</item>
+        <item>@string/lessNotifications_1m</item>
+        <item>@string/lessNotifications_2m</item>
+    </string-array>
+
+    <string-array name="lessNotifications_values" translatable="false">
+        <item>0</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+    </string-array>
+
+    <string-array name="gestureHeight_entries">
+        <item>@string/gestureHeight_everywhere</item>
+        <item>@string/gestureHeight_90</item>
+        <item>@string/gestureHeight_80</item>
+        <item>@string/gestureHeight_70</item>
+        <item>@string/gestureHeight_60</item>
+        <item>@string/gestureHeight_50</item>
+        <item>@string/gestureHeight_40</item>
+        <item>@string/gestureHeight_30</item>
+        <item>@string/gestureHeight_20</item>
+        <item>@string/gestureHeight_10</item>
+    </string-array>
+
+    <string-array name="gestureHeight_values" translatable="false">
+        <item>0</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="scopes" translatable="false">
+        <item>android</item>
+        <item>com.android.systemui</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.dialer</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>com.babamodz.darktricks</item>
+    </string-array>
+</resources>

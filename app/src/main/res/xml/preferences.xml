@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Category 1: Hardware Keys & Gestures -->
+    <PreferenceCategory
+        android:title="@string/category_keys_gestures"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="trick_cursorControl"
+            android:title="@string/cursorControl_title"
+            android:entries="@array/cursorControl_entries"
+            android:entryValues="@array/cursorControl_values"
+            android:summary="%s"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_skipTrack"
+            android:title="@string/skipTrack_title"
+            android:summary="@string/skipTrack_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_powerTorch"
+            android:title="@string/powerTorch_title"
+            android:summary="@string/powerTorch_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="trick_torchTimeout"
+            android:title="@string/torchTimeout_title"
+            android:entries="@array/torchTimeout_entries"
+            android:entryValues="@array/torchTimeout_values"
+            android:summary="%s"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_proximityWakeUp"
+            android:title="@string/proximityWakeUp_title"
+            android:summary="@string/proximityWakeUp_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_doubleTapToSleep"
+            android:title="@string/doubleTapToSleep_title"
+            android:summary="@string/doubleTapToSleep_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="trick_quickPulldown"
+            android:title="@string/quickPulldown_title"
+            android:entries="@array/quickPulldown_entries"
+            android:entryValues="@array/quickPulldown_values"
+            android:summary="%s"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0" />
+
+        <ListPreference
+            android:key="trick_gestureHeight"
+            android:title="@string/gestureHeight_title"
+            android:entries="@array/gestureHeight_entries"
+            android:entryValues="@array/gestureHeight_values"
+            android:summary="%s"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+
+    <!-- Category 2: Notifications -->
+    <PreferenceCategory
+        android:title="@string/category_notifications"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="trick_lessNotifications"
+            android:title="@string/lessNotifications_title"
+            android:entries="@array/lessNotifications_entries"
+            android:entryValues="@array/lessNotifications_values"
+            android:summary="%s"
+            app:iconSpaceReserved="false"
+            android:defaultValue="0" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_screenOffNotifications"
+            android:title="@string/screenOffNotifications_title"
+            android:summary="@string/screenOffNotifications_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_hideAdbNotification"
+            android:title="@string/hideAdbNotification_title"
+            android:summary="@string/hideAdbNotification_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <!-- Category 3: Status Bar & UI -->
+    <PreferenceCategory
+        android:title="@string/category_statusbar"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="trick_hideVpn"
+            android:title="@string/hideVpn_title"
+            android:summary="@string/hideVpn_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_hideCert"
+            android:title="@string/hideCert_title"
+            android:summary="@string/hideCert_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_hideNextAlarm"
+            android:title="@string/hideNextAlarm_title"
+            android:summary="@string/hideNextAlarm_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_show4gForLte"
+            android:title="@string/show4gForLte_title"
+            android:summary="@string/show4gForLte_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_hideLtePlus"
+            android:title="@string/hideLtePlus_title"
+            android:summary="@string/hideLtePlus_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_hideBuildVersion"
+            android:title="@string/hideBuildVersion_title"
+            android:summary="@string/hideBuildVersion_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="trick_customCarrierText"
+            android:title="@string/customCarrierText_title"
+            android:summary="@string/customCarrierText_summary"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"
+            android:defaultValue="" />
+    </PreferenceCategory>
+
+    <!-- Category 4: App Tweaks -->
+    <PreferenceCategory
+        android:title="@string/category_apps"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="trick_PhoneRecorder"
+            android:title="@string/phoneRecorder_title"
+            android:summary="@string/phoneRecorder_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="trick_OutlookPolicy"
+            android:title="@string/outlookPolicy_title"
+            android:summary="@string/outlookPolicy_summary"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <!-- Category 5: About -->
+    <PreferenceCategory
+        android:title="@string/category_about"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:key="about_pref"
+            android:title="@string/about_title"
+            android:summary="@string/about_info"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

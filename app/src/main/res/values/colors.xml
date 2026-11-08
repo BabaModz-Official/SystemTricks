@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4F46E5</color>
+    <color name="primary_dark">#3730A3</color>
+    <color name="accent">#06B6D4</color>
+
+    <!-- Status Colors -->
+    <color name="status_active_bg">#E8F5E9</color>
+    <color name="status_active_border">#4CAF50</color>
+    <color name="status_active_text">#1B5E20</color>
+
+    <color name="status_inactive_bg">#FFEBEE</color>
+    <color name="status_inactive_border">#E53935</color>
+    <color name="status_inactive_text">#B71C1C</color>
+
+    <color name="chip_bg">#E0E7FF</color>
+    <color name="chip_text">#3730A3</color>
+</resources>
