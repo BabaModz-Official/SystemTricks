@@ -2,21 +2,26 @@
 > Essential Hardware Key, Gesture &amp; System Tweaks for Android 10 - 17 (LSPosed / Xposed)
 
 [![Android](https://img.shields.io/badge/Android-10%20to%2017-3DDC84?style=flat&logo=android&logoColor=white)](https://github.com/BabaModz-Official/SystemTricks/releases)
+[![Language](https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)](https://github.com/BabaModz-Official/SystemTricks/releases)
 [![Framework](https://img.shields.io/badge/Framework-LSPosed%20(API%2093)-8A2BE2?style=flat)](https://github.com/BabaModz-Official/SystemTricks/releases)
-[![Release](https://img.shields.io/badge/Release-v2.0-blue?style=flat)](https://github.com/BabaModz-Official/SystemTricks/releases)
+[![Release](https://img.shields.io/badge/Release-v3.0-blue?style=flat)](https://github.com/BabaModz-Official/SystemTricks/releases)
 
 **SystemTricks** is an ultra-clean, modern, and lightweight system tweak module for Android devices (**Android 10 up through Android 17**, including HyperOS, MIUI, AOSP, LineageOS, Pixel, OneUI).
 
-Built on the latest **LSPosed API 93 standard**, it completely removes deprecated legacy APIs (such as `xposedsharedprefs`), providing zero-warning operation, real-time live preference syncing without reboots, and an enhanced Material 3 interface.
+Built on the latest **LSPosed API 93 standard**, it features a brand new **Kotlin &amp; Material 3 Dashboard UI**, completely removing the legacy `PreferenceScreen` list design and eliminating all deprecation warnings in LSPosed.
 
 ---
 
-## 🌟 What's New in v2.0
-* 🚀 **Full Android 10 - 17 Compatibility:** Dynamic hooks with signature fallback across Android 10, 11, 12, 13, 14, 15, 16 (Baklava), and 17.
-* 🛡️ **Zero Deprecation Warnings:** Upgraded to modern LSPosed API 93 standard and implemented custom `PreferencesProvider` (ContentProvider) architecture. Removed deprecated legacy `xposedsharedprefs`.
-* 🎨 **Enhanced Material 3 UI:** Redesigned interface with sleek rounded cards, active status badges (`● ACTIVE (API 93)`), device &amp; framework info chips, and one-tap LSPosed launch.
-* ⚡ **Live Real-time Sync:** All toggle switches and preferences apply in real time (within milliseconds) without needing to reboot your device.
-* ⏱️ **Torch Auto-Off Safety Timer:** Added 2 min, 5 min, and 10 min auto-off timer for flashlight to protect hardware from overheating.
+## 🌟 What's New in v3.0 (Kotlin &amp; Modern UI Overhaul)
+* 🎨 **Complete UI Redesign:** Replaced the old boring `PreferenceScreen` with a sleek, custom Material 3 Dashboard:
+  * **Interactive Category Chips:** Seamlessly filter between `🌟 All`, `🔘 Hardware Keys`, `🔔 Notifications`, `📶 Status Bar & UI`, and `🛡️ App Patches`.
+  * **Real-time Search Bar:** Instantly search through all 20+ tweaks by name or description.
+  * **Modern Tweak Cards:** Clean rounded MaterialCards with custom icons, clear subtitles, and modern `MaterialSwitch` toggles.
+  * **Single-Choice Dialogs:** Clickable option chips on cards (e.g. Cursor direction, Torch auto-off timer, Notification throttle delay, Back gesture height) that open Material 3 selection dialogs with subtle haptic feedback.
+* ⚡ **Kotlin Architecture:** Upgraded core app layers to pure Kotlin for superior performance and safety.
+* 🚀 **Full Android 10 - 17 Compatibility:** Dynamic hooks with signature fallback across Android 10, 11, 12, 13, 14, 15, 16 (Baklava), and upcoming 17.
+* 🛡️ **Zero Deprecation Warnings:** Modern LSPosed API 93 standard and custom `PreferencesProvider` (ContentProvider) architecture. No legacy `xposedsharedprefs`.
+* ⚡ **Instant Live Sync:** All settings apply in milliseconds without needing to reboot your device.
 
 ---
 
@@ -55,7 +60,7 @@ Built on the latest **LSPosed API 93 standard**, it completely removes deprecate
 ## 📲 Installation
 
 1. Ensure your device is rooted with **Magisk**, **KernelSU**, or **APatch**, and has **LSPosed** installed and working.
-2. Download the latest **`SystemTricks_v2.0.apk`** from the [Releases](https://github.com/BabaModz-Official/SystemTricks/releases) section.
+2. Download the latest **`SystemTricks_v3.0.apk`** from the [Releases](https://github.com/BabaModz-Official/SystemTricks/releases) section.
 3. Install the APK on your device.
 4. Open **LSPosed Manager**:
    * Navigate to the **Modules** tab.
